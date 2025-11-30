@@ -10,7 +10,7 @@ public class ChatGPT {
 
     // HTTP request variables
     private static  String url = "https://api.openai.com/v1/chat/completions";
-    private static  String apiKey = "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";
+    private static  String apiKey = "-";
     private static  String model = "gpt-3.5-turbo";
 
     public static String chatGPT(List<Message> conversation) {
